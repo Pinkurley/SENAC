@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@600&family=Montserrat:wght@100&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Rubik&family=Secular+One&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@500&family=Lora:wght@600&family=Montserrat:wght@100&family=Oswald:wght@300&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Rubik&family=Secular+One&family=Vina+Sans&display=swap');
+
+.accordion{
+    margin: 300px;
+    display: inline;
+    width: 80%;
+    background: transparent;
+    align-items: center;
+}
+
+.accordion-item{
+    font-family: 'Kanit', sans-serif;
+    background:  rgba(90, 90, 90, 0.753);
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
+}
+
+.accordion-body{
+    font-family: 'Lora', serif;
+    background: rgb(200, 200, 200);
+    font-size: 1rem;
+}
+
+.accordion-button{
+    margin: 2px;
+    font-size: 0.8rem;
+    color: rgb(19, 19, 19);
+    background: transparent;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-weight: 700;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.accordion-button:not(.collapsed){
+    background: rgba(0,0,0,0.1);
+    color: black;
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    background-image: none;
+    font-family: fontawesome;
+    width: auto;
+    height: auto;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}

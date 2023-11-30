@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@500&family=Lora:wght@600&family=Montserrat:wght@100&family=Oswald:wght@300&family=PT+Sans&family=Playfair+Display&family=Quicksand:wght@300&family=Rubik&family=Secular+One&family=Vina+Sans&display=swap');
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(90, 90, 90, 0.753);
+    padding: 5px;
+    color: black;
+}
+hr {
+    margin: 50px
+}
+#itens {
+    margin: 10px;
+}
